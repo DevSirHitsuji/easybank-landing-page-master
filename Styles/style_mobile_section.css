@@ -1,0 +1,132 @@
+:root {
+    --darkBlue: hsl(233, 26%, 24%);
+    --limeGreen: hsl(136, 65%, 51%);
+    --brightCyan: hsl(192, 70%, 51%);
+
+    --grayishBlue: hsl(233, 8%, 62%);
+    --lightGrayishBlue: hsl(220, 16%, 96%);
+    --veryLightGray: hsl(0, 0%, 97%);
+    --white: hsl(0, 0%, 98%);
+}
+
+.presentation {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 105vh;
+    padding: 0px;
+}
+
+
+.presentation div {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation-texts {
+    align-items: center;
+    margin-inline: 5%;
+    padding-block: 50px;
+}
+
+.presentation-texts h1 {
+    width: 90%;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.presentation-texts p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.5vh;
+    opacity: 0.7;
+}
+
+.presentation-texts .link {
+    background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+    padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+    margin-top: 20px;
+
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.presentation-imgs {
+    display: flex;
+}
+
+.presentation div img {
+    position: absolute;
+    width: 100%;
+}
+
+.presentation-img-complement {
+    margin-top: -55px;
+}
+
+main {
+    background-color: var(--veryLightGray); 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-inline: 30px;
+
+    background-color: var(--veryLightGray);
+}
+
+.why-choose p {
+    margin-bottom: 50px;
+}
+
+.subsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    width: 90%;
+    font-size: 6vh;
+    text-align: center;
+}
+
+section p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.3vh;
+    opacity: 0.7;
+    line-height: 5vh;
+}
+
+section h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3vh;
+
+}
+
+.latest-articles {
+    background-color: var(--white);
+    padding-block: 50px;
+}
+
+.latest-articles div {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.latest-articles div img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
