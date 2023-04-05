@@ -1,0 +1,129 @@
+:root {
+    --darkBlue: hsl(233, 26%, 24%);
+    --limeGreen: hsl(136, 65%, 51%);
+    --brightCyan: hsl(192, 70%, 51%);
+
+    --grayishBlue: hsl(233, 8%, 62%);
+    --lightGrayishBlue: hsl(220, 16%, 96%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+@media (min-width: 425px) {
+
+    #imgs-mobile {
+        display: none;
+    }
+    #imgs-desktop {
+        display: flex;
+    }
+
+    .presentation {
+        flex-direction: row-reverse;
+        height: 100vh;
+    }
+
+    .presentation-texts {
+        width: 50%;
+        margin: 0px;
+        align-items: start;
+        padding: 50px;
+        align-self: center;
+    }
+
+    .presentation-texts > h1 {
+        font-size: 15px;
+    }
+
+    .presentation div {
+        width: 50%;
+    }
+
+    .presentation .presentation-img-main {
+        position: absolute;
+        width: 50%;
+
+    }
+
+
+    .presentation .presentation-img-complement {
+        position: absolute;
+        width: 60%;
+        margin-right: -100px;
+
+    }
+
+    .presentation h1 {
+        font-size: 7vh;
+        width:70%;
+        text-align: start;
+    }
+
+    .presentation p {
+        font-size: 3vh;
+        text-align: start;
+    } 
+
+    .why-choose {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        height: 90vh;
+        padding: 50px;
+    }
+    
+    .why-choose .titles {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .titles > * {
+        text-align: start;
+    }
+
+    .why-choose .subsections{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subsections .subsection {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 20%;
+    }
+
+    .subsections .subsection > * {
+        text-align: start;
+    }
+
+    .latest-articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 90vh;
+        padding: 50px;
+    }
+
+    .latest-articles h1 {
+        margin-block: 50px;
+    }
+
+    .latest-articles > * {
+        text-align: start;
+    }
+
+    .latest-articles .articles {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .articles div {
+        width: 20%;
+    }
+
+}
